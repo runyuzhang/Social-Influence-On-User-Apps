@@ -1,0 +1,38 @@
+Problem 1
+
+				unsigned	sign & magnitude	one's complement	two's complement
+0b11110000	 	240			-112				-15					-16		 	 	 
+0b00001111  	15			15					15					15	 	 	 
+0x0F	 	 	0b00001111	0b00001111			0b00001111			0b00001111 	 
+0xA1	 	 	0b10100001	0b10100001			0b10100001			0b10100001 	 
+0xFF	 	 	0b11111111	0b11111111			0b11111111			0b11111111 	 
+0xBE	 	 	0b10111110	0b10111110			0b10111110			0b10111110 	 
+64	 	 	 	0b01000000	0b01000000			0b01000000			0b01000000 
+-35	 	 	 	n/a 		0b10100011			0b11011100			0b11011101
+128	 	 	 	0b10000000  n/a  				n/a 				n/a 	 
+-128	 	 	n/a 		n/a 				n/a 				0b10000000
+
+Problem 2
+a.1) x & 0 = 0
+a.2) x & 1 = x
+a.3) x | 0 = x
+a.4) x | 1 = 1
+a.5) x ^ 0 = x
+a.6) x ^ 1 = NOT X
+
+b.1) x & 0
+b.2) x | 1
+b.3) x ^ 1
+
+Problem 3
+a.1) ONE'S COMPLEMENT
+a.2) UNSIGNED
+a.3) SIGN AND MAGNITUDE
+a.4) BOTH
+b)
+
+Problem 4
+a) 3^n
+b) 3^(n-1)
+c) n
+d) 11
